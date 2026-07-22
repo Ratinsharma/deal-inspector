@@ -1,0 +1,24 @@
+{
+  "name": "deal-inspector",
+  "version": "1.0.0",
+  "description": "Forensic B2B deal inspection — MEDDPICC scoring, silent killer detection & pipeline forensics for AI agents",
+  "keywords": [
+    "ecc",
+    "skill",
+    "deal-inspector",
+    "b2b-sales",
+    "meddpicc",
+    "pipeline-review",
+    "forecast",
+    "sales-engineering"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ratz0007/deal-inspector.git"
+  },
+  "homepage": "https://github.com/Ratz0007/deal-inspector#readme",
+  "bugs": {
+    "url": "https://github.com/Ratz0007/deal-inspector/issues"
+  }
+}
