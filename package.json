@@ -15,10 +15,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ratz0007/deal-inspector.git"
+    "url": "git+https://github.com/Ratinsharma/deal-inspector.git"
   },
-  "homepage": "https://github.com/Ratz0007/deal-inspector#readme",
+  "homepage": "https://github.com/Ratinsharma/deal-inspector#readme",
   "bugs": {
-    "url": "https://github.com/Ratz0007/deal-inspector/issues"
-  }
+    "url": "https://github.com/Ratinsharma/deal-inspector/issues"
+  },
+  "author": "Ratin Sharma"
 }
+

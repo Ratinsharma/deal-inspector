@@ -16,7 +16,7 @@ Paste raw deal notes, call summaries, email threads, or a CRM export. Get an evi
 
 ```bash
 # Clone the repo
-git clone https://github.com/Ratz0007/deal-inspector.git
+git clone https://github.com/Ratinsharma/deal-inspector.git
 cd deal-inspector
 
 # Run the install script (auto-detects your skills directory)
@@ -109,18 +109,35 @@ Every score requires a name, a date, a document, or an observed behaviour. Senti
 
 ---
 
+## Structure
+
+```
+deal-inspector/
+├── SKILL.md           # ECC/Claude skill definition
+├── docs/              # extra notes
+├── examples/          # sample deal inputs
+├── install.sh / .ps1  # skill installers
+├── uninstall.sh / .ps1
+├── package.json       # metadata only
+├── CONTRIBUTING.md
+├── LICENSE
+└── .github/           # PR + issue templates
+```
+
+## Stack
+
+Markdown ECC/Claude skill + Bash/PowerShell installers. `package.json` is metadata only (no Node runtime).
+
 ## Contributing
 
-PRs welcome! If you have ideas for new silent killers, scoring improvements, or better trap-door questions, open an issue or submit a pull request.
-
-1. Fork the repo
-2. Create a feature branch (`git checkout -b feature/my-idea`)
-3. Commit your changes (`git commit -am 'Add my idea'`)
-4. Push (`git push origin feature/my-idea`)
-5. Open a Pull Request
+See [CONTRIBUTING.md](CONTRIBUTING.md). Ideas for new silent killers, scoring improvements, or trap-door questions welcome.
 
 ---
 
 ## License
 
-[MIT](LICENSE) © Ratz0007
+[MIT](LICENSE) — Copyright (c) 2026 Ratin Sharma
+
+## Author
+
+**Ratin Sharma** — [github.com/Ratinsharma](https://github.com/Ratinsharma)
