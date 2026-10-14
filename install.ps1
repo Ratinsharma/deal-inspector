@@ -61,14 +61,15 @@ try {
         foreach ($name in @('SKILL.md', 'LICENSE', '.deal-inspector-owned')) {
             $owned = Join-Path $destination $name
             if (Test-Path -LiteralPath $owned) { Remove-Item -LiteralPath $owned -Force }
-            Move-Item -LiteralPath (Join-Path $stage $name) -Destination $owned
+            Move-Item -LiteralPath (Join-Path $stage $name) -Destination $owned -Force
         }
     } finally {
         foreach ($name in @('SKILL.md', 'LICENSE', '.deal-inspector-owned')) {
             $stagedFile = Join-Path $stage $name
             if (Test-Path -LiteralPath $stagedFile -PathType Leaf) { Remove-Item -LiteralPath $stagedFile -Force }
         }
-        if (Test-Path -LiteralPath $stage) { Remove-Item -LiteralPath $stage }
+        # Dot-prefixed staging paths are hidden on Unix; -Force permits only this checked, empty path.
+        if (Test-Path -LiteralPath $stage) { Remove-Item -LiteralPath $stage -Force }
     }
     Write-Host "Installed Deal Inspector in $destination"
     Write-Host 'Start a new Claude Code session and invoke /deal-inspector.'
@@ -77,3 +78,4 @@ try {
     Write-Error ("{0} (line {1})" -f $_.Exception.Message, $_.InvocationInfo.ScriptLineNumber) -ErrorAction Continue
     exit 1
 }
+
