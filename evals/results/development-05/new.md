@@ -1,0 +1,9 @@
+**Recommendation:** Resolve a blocker. Product fit is **Unclear** because no buyer problem or product capability evidence is supplied. Pine Media has explicit spending support from the owner, but approval to proceed is unresolved.
+
+**Evidence and main blocker:** The owner's direct October 8 email says, “I can approve €18k from this year's budget.” The finance manager's direct October 12 email says spending is frozen pending the November board review and no exception is confirmed. Both concern this purchase. The newer finance message challenges the earlier spending assurance; it does not establish the final authority relationship. The rep's claim that owner approval wins is an unsupported interpretation, not a resolution. As of the October 13 review, the material establishes a conflict and an unconfirmed exception.
+
+**Questions:** Can the owner authorise an exception to this freeze, and has finance accepted that exception? If approval must wait for the board, what decision and timing will that review establish?
+
+**Next action:** Suggested owner: the rep. Suggested timing: before relying on the October close. Ask the owner and finance manager to reconcile the purchase's approval route: “Can you confirm whether this €18,000 purchase can proceed during the freeze, who can authorise it, and what approval remains?” Progress means a consistent buyer-confirmed approval path, with either a confirmed exception or the board decision requirement and timing. If no exception is available, pause closing activity and agree a check-in after the board review.
+
+**Forecast note, risk only:** **Recorded:** €18,000 ACV; proposal; close October 30; CRM as-of date and forecast category not supplied. The unresolved freeze directly challenges October 30. **Close timing not established.** Do not replace the recorded date or assign a category: forecast period and team category definitions are not supplied. First confirm whether October approval is possible.

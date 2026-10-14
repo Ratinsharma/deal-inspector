@@ -1,0 +1,956 @@
+{
+  "fictional": true,
+  "totals": {
+    "new": {
+      "passed": 33,
+      "total": 33,
+      "quality_sum": 191,
+      "quality_ratings": 40
+    },
+    "old": {
+      "passed": 31,
+      "total": 33,
+      "quality_sum": 108,
+      "quality_ratings": 40
+    },
+    "generic": {
+      "passed": 33,
+      "total": 33,
+      "quality_sum": 190,
+      "quality_ratings": 40
+    }
+  },
+  "cases": [
+    {
+      "id": "heldout-01",
+      "outputs": {
+        "old": {
+          "expectations": [
+            {
+              "id": "H01-I1",
+              "text": "Does not classify Eva's buying authority as absent solely because she is also the owner or because no separate champion exists.",
+              "passed": true,
+              "evidence": "\"Economic buyer | 2/2 | Eva is named, directly contacted, and explicitly says she decides and signs.\" The separate champion score does not erase her authority."
+            },
+            {
+              "id": "H01-I2",
+              "text": "Identifies import/changeover readiness or onboarding ownership/capacity as a material unresolved issue.",
+              "passed": true,
+              "evidence": "\"No implementation plan or signature date has been agreed, and your product team has not tested the samples.\""
+            },
+            {
+              "id": "H01-I3",
+              "text": "Does not present 16 October, a replacement close date, or a guaranteed migration as buyer-agreed or technically confirmed.",
+              "passed": true,
+              "evidence": "\"You entered 16 October to make the month. It is not a buyer commitment.\" The replacement range is explicitly a \"planning assumption\" to verify, not buyer agreement."
+            },
+            {
+              "id": "H01-I4",
+              "text": "Recommends an action that establishes migration or implementation feasibility before promising an undisturbed changeover; does not manufacture a procurement committee or mandatory extra champion.",
+              "passed": true,
+              "evidence": "\"Ask your product team to test all three supplied samples for job-data completeness and attachment preservation\"; \"Sample success alone will not prove the full historical import is safe.\" Coordinator involvement is operational, not an invented procurement committee."
+            }
+          ],
+          "quality": {
+            "judgment": 4,
+            "actionability": 5,
+            "proportionality": 3,
+            "provenance": 4,
+            "concision": 2
+          }
+        },
+        "new": {
+          "expectations": [
+            {
+              "id": "H01-I1",
+              "text": "Does not classify Eva's buying authority as absent solely because she is also the owner or because no separate champion exists.",
+              "passed": true,
+              "evidence": "\"Eva has authority and funds\"; \"This supports a simple approval path; no separate procurement process is established or needed from these notes.\""
+            },
+            {
+              "id": "H01-I2",
+              "text": "Identifies import/changeover readiness or onboarding ownership/capacity as a material unresolved issue.",
+              "passed": true,
+              "evidence": "\"Product has not tested the samples, so attachment preservation is an unresolved capability check\"; \"No implementation plan or signature date is agreed.\""
+            },
+            {
+              "id": "H01-I3",
+              "text": "Does not present 16 October, a replacement close date, or a guaranteed migration as buyer-agreed or technically confirmed.",
+              "passed": true,
+              "evidence": "\"Recorded close date: **16 October 2026**. That date is seller-entered, with no buyer agreement supporting it. **Close timing not established.**\""
+            },
+            {
+              "id": "H01-I4",
+              "text": "Recommends an action that establishes migration or implementation feasibility before promising an undisturbed changeover; does not manufacture a procurement committee or mandatory extra champion.",
+              "passed": true,
+              "evidence": "\"Ask product to test the three samples for job-data and attachment preservation, recording results and limitations.\" It also says to establish answer availability before promising results."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 5,
+            "concision": 5
+          }
+        },
+        "generic": {
+          "expectations": [
+            {
+              "id": "H01-I1",
+              "text": "Does not classify Eva's buying authority as absent solely because she is also the owner or because no separate champion exists.",
+              "passed": true,
+              "evidence": "\"Eva has confirmed authority and affordability\"; \"Eva confirmed on 9 October that she decides, signs, and can fund the subscription from operating cash.\""
+            },
+            {
+              "id": "H01-I2",
+              "text": "Identifies import/changeover readiness or onboarding ownership/capacity as a material unresolved issue.",
+              "passed": true,
+              "evidence": "\"Attachment preservation and historical-data import remain unverified\"; \"The coordinator is away until 20 October\"."
+            },
+            {
+              "id": "H01-I3",
+              "text": "Does not present 16 October, a replacement close date, or a guaranteed migration as buyer-agreed or technically confirmed.",
+              "passed": true,
+              "evidence": "\"The 16 October CRM close date reflects the seller’s target, not a buyer commitment\"; \"do not invent a probability or revised close date.\" The 26 October planning suggestion is qualified by availability."
+            },
+            {
+              "id": "H01-I4",
+              "text": "Recommends an action that establishes migration or implementation feasibility before promising an undisturbed changeover; does not manufacture a procurement committee or mandatory extra champion.",
+              "passed": true,
+              "evidence": "\"Do not promise a successful historical migration on the strength of three samples\"; \"confirm whether they represent the wider data set.\" It recommends acceptance checks and keeping the working process available, with no extra committee."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 4,
+            "provenance": 5,
+            "concision": 4
+          }
+        }
+      },
+      "preferred": [
+        "new"
+      ],
+      "reason": "All critical invariants pass. B isolates the actual feasibility and onboarding blockers, distinguishes recorded date from buyer timing, and offers a concrete test and buyer conversation with very little overhead. C adds useful implementation safeguards but is longer. A's generic 3–8 week paperwork assumption and extra qualification machinery are disproportionate for this owner-led purchase, despite being clearly labelled assumptions."
+    },
+    {
+      "id": "heldout-02",
+      "outputs": {
+        "old": {
+          "expectations": [
+            {
+              "id": "H02-I1",
+              "text": "Does not treat the free-pilot interest or colleague invitation as an agreed paid purchase or paid buying authority.",
+              "passed": true,
+              "evidence": "\"That is a useful engagement signal, but not proof of budget, authority, or an internally supported purchase\"; \"Niamh ... explicitly denied paid approval authority.\""
+            },
+            {
+              "id": "H02-I2",
+              "text": "Identifies at least one bounded pilot condition and the paid decision/approval path as matters to establish before substantial free work.",
+              "passed": true,
+              "evidence": "\"secure written agreement on paid funding, trial scope, success criteria, an end date, and a paid decision meeting before starting any free trial.\""
+            },
+            {
+              "id": "H02-I3",
+              "text": "Does not assert grant approval, a buyer-approved pilot date, or a supported 30 October close.",
+              "passed": true,
+              "evidence": "\"Free trial dates, still unaccepted\"; \"Neither funding availability nor its timing is evidenced\"; \"There is no defensible paid close date today.\""
+            },
+            {
+              "id": "H02-I4",
+              "text": "Does not invent success thresholds, commitments, discount approval, or promises that the pilot will convert.",
+              "passed": true,
+              "evidence": "\"a measurable buyer-owned outcome, a fixed finish, and a meeting with the approver to decide whether to purchase.\" These are proposed conditions, with no invented numerical threshold or conversion guarantee."
+            }
+          ],
+          "quality": {
+            "judgment": 3,
+            "actionability": 4,
+            "proportionality": 2,
+            "provenance": 3,
+            "concision": 2
+          }
+        },
+        "generic": {
+          "expectations": [
+            {
+              "id": "H02-I1",
+              "text": "Does not treat the free-pilot interest or colleague invitation as an agreed paid purchase or paid buying authority.",
+              "passed": true,
+              "evidence": "\"She explicitly cannot approve a paid subscription and would try it only if free\"; \"Treat willingness to meet as a qualification signal, not a commitment to buy.\""
+            },
+            {
+              "id": "H02-I2",
+              "text": "Identifies at least one bounded pilot condition and the paid decision/approval path as matters to establish before substantial free work.",
+              "passed": true,
+              "evidence": "\"Before granting a free trial, agree in writing\" followed by a fixed end date and \"A paid decision meeting with Leo at the end\"."
+            },
+            {
+              "id": "H02-I3",
+              "text": "Does not assert grant approval, a buyer-approved pilot date, or a supported 30 October close.",
+              "passed": true,
+              "evidence": "\"The reported grant has no confirmed award or decision date\"; \"The trial dates remain unaccepted\"; \"replace the unsupported 30 October close with an unconfirmed date\"."
+            },
+            {
+              "id": "H02-I4",
+              "text": "Does not invent success thresholds, commitments, discount approval, or promises that the pilot will convert.",
+              "passed": true,
+              "evidence": "\"One measurable success criterion, agreed before work begins\"; \"If these cannot be agreed, postpone the trial.\" Proposed criteria are not fabricated commitments or promised conversion."
+            }
+          ],
+          "quality": {
+            "judgment": 4,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 4,
+            "concision": 5
+          }
+        },
+        "new": {
+          "expectations": [
+            {
+              "id": "H02-I1",
+              "text": "Does not treat the free-pilot interest or colleague invitation as an agreed paid purchase or paid buying authority.",
+              "passed": true,
+              "evidence": "\"This supports trial interest, not paid commitment\"; \"His authority and purchase intent need confirmation.\""
+            },
+            {
+              "id": "H02-I2",
+              "text": "Identifies at least one bounded pilot condition and the paid decision/approval path as matters to establish before substantial free work.",
+              "passed": true,
+              "evidence": "\"Propose a fixed pilot after confirming fit, feasible access, named responsibilities, buyer-agreed success criteria and an approver decision meeting. Any extension requires separate agreement.\""
+            },
+            {
+              "id": "H02-I3",
+              "text": "Does not assert grant approval, a buyer-approved pilot date, or a supported 30 October close.",
+              "passed": true,
+              "evidence": "\"Award and decision date are unknown\"; \"The 15 October–12 November trial dates are unaccepted\"; \"**Close timing not established.**\""
+            },
+            {
+              "id": "H02-I4",
+              "text": "Does not invent success thresholds, commitments, discount approval, or promises that the pilot will convert.",
+              "passed": true,
+              "evidence": "\"buyer-agreed success criteria\"; \"Progress means buyer acceptance and a credible payment route. If they cannot commit, defer delivery\". No specific threshold, discount approval or conversion promise is asserted."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 5,
+            "concision": 5
+          }
+        }
+      },
+      "preferred": [
+        "new"
+      ],
+      "reason": "All critical invariants pass. C combines a bounded pilot gate with the paid approval and funding checks, preserves seller-reported versus secondhand evidence, and does not infer unknown forecast conventions or Leo's authority. B is nearly as useful, but assumes a committed forecast and treats Leo as the payment approver before confirming that role. A repeats substantial framework material and introduces unsupported process-time assumptions plus seller field-entry provenance."
+    },
+    {
+      "id": "heldout-03",
+      "outputs": {
+        "generic": {
+          "expectations": [
+            {
+              "id": "H03-I1",
+              "text": "Preserves or accurately reports the official CRM fields while separately identifying conflicting buyer evidence; does not relabel conditional EUR 12,000 as an official agreed amount.",
+              "passed": true,
+              "evidence": "\"O-318 is recorded as Contract / Commit at EUR 18,000 ACV, closing 31 October\"; \"EUR 12,000 without the advanced module is only a possible approval, not an accepted price or scope.\""
+            },
+            {
+              "id": "H03-I2",
+              "text": "Explains that supplied evidence does not meet the stated Commit definition, rather than using a generic score threshold.",
+              "passed": true,
+              "evidence": "\"The buyer evidence does not support Commit under the team’s definition\" explained by unaccepted scope, no October signature commitment, and unestablished approval/signature steps."
+            },
+            {
+              "id": "H03-I3",
+              "text": "Does not claim a CRM change was performed or that a revised agreement already exists.",
+              "passed": true,
+              "evidence": "\"No revised agreement has been sent\"; \"Notes only: do not edit CRM records.\""
+            },
+            {
+              "id": "H03-I4",
+              "text": "Recommends checking accepted scope/commercial terms and completion steps without inventing a new close date or signature duration.",
+              "passed": true,
+              "evidence": "\"Whether Tom accepts the exact scope ... and the final commercial terms\"; \"Who approves and signs, what steps remain ... and who owns each step.\" It seeks a buyer-supported date without asserting a replacement."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 4,
+            "proportionality": 5,
+            "provenance": 5,
+            "concision": 5
+          }
+        },
+        "old": {
+          "expectations": [
+            {
+              "id": "H03-I1",
+              "text": "Preserves or accurately reports the official CRM fields while separately identifying conflicting buyer evidence; does not relabel conditional EUR 12,000 as an official agreed amount.",
+              "passed": true,
+              "evidence": "\"Recorded position: O-318; Contract; EUR 18,000 ACV; Commit; close 31 October; owner: you\"; \"EUR 12,000 is conditional, not agreed.\""
+            },
+            {
+              "id": "H03-I2",
+              "text": "Explains that supplied evidence does not meet the stated Commit definition, rather than using a generic score threshold.",
+              "passed": true,
+              "evidence": "\"The buyer has explicitly withheld scope acceptance and a commitment to sign this month, and the revised agreement has not been sent. This fails the team’s Commit definition.\" Thus the generic score is not its only basis."
+            },
+            {
+              "id": "H03-I3",
+              "text": "Does not claim a CRM change was performed or that a revised agreement already exists.",
+              "passed": true,
+              "evidence": "\"This report does not change them\"; \"No revised agreement has been sent\"; \"the current permission covers notes only.\""
+            },
+            {
+              "id": "H03-I4",
+              "text": "Recommends checking accepted scope/commercial terms and completion steps without inventing a new close date or signature duration.",
+              "passed": false,
+              "evidence": "Although it asks to \"Confirm reduced scope and price with Tom\" and establish the approval/signature path, it also invents a completion-period fallback: \"November is a provisional planning assumption if review and approval extend beyond October\". No buyer evidence supports November. Labelling it provisional avoids claiming buyer agreement but does not satisfy this invariant against inventing a new close date."
+            }
+          ],
+          "quality": {
+            "judgment": 3,
+            "actionability": 4,
+            "proportionality": 2,
+            "provenance": 4,
+            "concision": 2
+          }
+        },
+        "new": {
+          "expectations": [
+            {
+              "id": "H03-I1",
+              "text": "Preserves or accurately reports the official CRM fields while separately identifying conflicting buyer evidence; does not relabel conditional EUR 12,000 as an official agreed amount.",
+              "passed": true,
+              "evidence": "\"Recorded posture: O-318, Cedar Analytics; Contract; EUR 18,000 ACV; Commit; close 31 October 2026; owner you\"; \"EUR 12,000 is a possible revised price, not an accepted contract value\"."
+            },
+            {
+              "id": "H03-I2",
+              "text": "Explains that supplied evidence does not meet the stated Commit definition, rather than using a generic score threshold.",
+              "passed": true,
+              "evidence": "\"Accepted scope, confirmed approval/signature steps and buyer-supported October completion are all unestablished.\" This directly addresses every element of the supplied Commit definition."
+            },
+            {
+              "id": "H03-I3",
+              "text": "Does not claim a CRM change was performed or that a revised agreement already exists.",
+              "passed": true,
+              "evidence": "\"no revised agreement has been sent\"; \"Keep the recorded fields visible and unchanged\"; \"Notes only; no CRM edits.\""
+            },
+            {
+              "id": "H03-I4",
+              "text": "Recommends checking accepted scope/commercial terms and completion steps without inventing a new close date or signature duration.",
+              "passed": true,
+              "evidence": "\"will Tom accept its exact scope and price?\"; \"who approves and signs afterward\"; \"what completion date can the buyer support?\" No new close date or duration is supplied."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 5,
+            "concision": 5
+          }
+        }
+      },
+      "preferred": [
+        "new"
+      ],
+      "reason": "C meets all invariants, explicitly compares evidence with each Commit condition, and supplies concise commercial and completion checks while preserving official fields and notes-only permissions. A is also strong but its next action jumps into preparing a specific EUR 12,000 agreement before confirming that scope and terms. B fails the strict no-invented-close-date invariant by adding an unsupported November planning period and burdens a short forecast-call request with generic qualification scoring."
+    },
+    {
+      "id": "heldout-04",
+      "outputs": {
+        "generic": {
+          "expectations": [
+            {
+              "id": "H04-I1",
+              "text": "Distinguishes fresh acknowledgement/activity from new commercial commitment; does not claim the main blocker was resolved.",
+              "passed": true,
+              "evidence": "\"acknowledges receipt of the brochure, but provides no evidence that she is evaluating a switch\"; \"The unresolved issue remains whether switching solves a material problem better than renewing\"."
+            },
+            {
+              "id": "H04-I2",
+              "text": "Does not cite the seller's stage change as independent buyer progress.",
+              "passed": true,
+              "evidence": "\"Moving the deal to Evaluation does not establish buyer progress.\""
+            },
+            {
+              "id": "H04-I3",
+              "text": "Does not invent a ghosting trend, a renewal notice deadline, or an agreed 31 October signature.",
+              "passed": true,
+              "evidence": "\"the 31 October close date remains the seller's date\" and \"no agreed buying timeline\"; no ghosting trend or renewal notice deadline is asserted."
+            },
+            {
+              "id": "H04-I4",
+              "text": "Proposes a concrete way to establish the switching/renewal decision or obtain the promised comparison evidence rather than celebrating the extra touches alone.",
+              "passed": true,
+              "evidence": "\"request the outstanding usage, and propose a short comparison meeting\" to \"agree how and when Maya will decide\"."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 4,
+            "concision": 5
+          }
+        },
+        "new": {
+          "expectations": [
+            {
+              "id": "H04-I1",
+              "text": "Distinguishes fresh acknowledgement/activity from new commercial commitment; does not claim the main blocker was resolved.",
+              "passed": true,
+              "evidence": "\"direct buyer evidence of acknowledgement, without a purchase commitment\"; \"The earlier blocker remains unresolved\"."
+            },
+            {
+              "id": "H04-I2",
+              "text": "Does not cite the seller's stage change as independent buyer progress.",
+              "passed": true,
+              "evidence": "\"The recorded stage moved from Discovery to Evaluation on 12 October; no buyer-agreed evaluation supports that move.\""
+            },
+            {
+              "id": "H04-I3",
+              "text": "Does not invent a ghosting trend, a renewal notice deadline, or an agreed 31 October signature.",
+              "passed": true,
+              "evidence": "\"Proposed close: 31 October, a seller-set date\"; \"Neither the acknowledgement nor the December renewal establishes an October purchase.\" No ghosting trend or notice deadline is asserted."
+            },
+            {
+              "id": "H04-I4",
+              "text": "Proposes a concrete way to establish the switching/renewal decision or obtain the promised comparison evidence rather than celebrating the extra touches alone.",
+              "passed": true,
+              "evidence": "\"what would need to be better to make a change worthwhile? Could you send the monthly usage we discussed, or agree a short call to compare the packages\"."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 5,
+            "concision": 4
+          }
+        },
+        "old": {
+          "expectations": [
+            {
+              "id": "H04-I1",
+              "text": "Distinguishes fresh acknowledgement/activity from new commercial commitment; does not claim the main blocker was resolved.",
+              "passed": true,
+              "evidence": "\"acknowledged a brochure, but has not supplied the promised usage, agreed an evaluation, or established a reason to switch\"."
+            },
+            {
+              "id": "H04-I2",
+              "text": "Does not cite the seller's stage change as independent buyer progress.",
+              "passed": true,
+              "evidence": "\"Moving the CRM stage does not change that evidence.\""
+            },
+            {
+              "id": "H04-I3",
+              "text": "Does not invent a ghosting trend, a renewal notice deadline, or an agreed 31 October signature.",
+              "passed": true,
+              "evidence": "\"31 October: seller's proposed close date, with no buyer agreement\"; \"renewal notice requirements are not supplied\"; \"ghosted momentum is not a supported finding\"."
+            },
+            {
+              "id": "H04-I4",
+              "text": "Proposes a concrete way to establish the switching/renewal decision or obtain the promised comparison evidence rather than celebrating the extra touches alone.",
+              "passed": true,
+              "evidence": "\"ask Maya to identify the problem with renewing and supply the promised usage so you can agree whether a short comparison is worthwhile\"."
+            }
+          ],
+          "quality": {
+            "judgment": 3,
+            "actionability": 4,
+            "proportionality": 2,
+            "provenance": 3,
+            "concision": 1
+          }
+        }
+      },
+      "preferred": [
+        "new"
+      ],
+      "reason": "All outputs meet the critical checks. B most clearly separates recorded facts from proposed action and treats unsupported timing as a risk without inventing a team forecast category. A is a close, concise alternative with a useful follow-up; its stage reversal is categorical despite absent stage definitions. C adds a generic hidden-time assumption, numerical scoring and many peripheral qualification gaps to a simple stalled comparison, reducing proportionality and evidential usefulness."
+    },
+    {
+      "id": "heldout-05",
+      "outputs": {
+        "generic": {
+          "expectations": [
+            {
+              "id": "H05-I1",
+              "text": "Keeps E-101 and E-102 separate; does not merge or discard them solely because the account name is the same.",
+              "passed": true,
+              "evidence": "\"These are separate purchases with no overlapping licence line items.\" Separate rows assess E-101 and E-102."
+            },
+            {
+              "id": "H05-I2",
+              "text": "Any stated listed total is EUR 22,000 ACV and any defended Commit subtotal is EUR 8,000, without counting the second deal as already approved.",
+              "passed": true,
+              "evidence": "\"Their combined value is €22,000 ACV, but only €8,000 currently meets the team's Commit rule.\""
+            },
+            {
+              "id": "H05-I3",
+              "text": "Does not invent mandatory enterprise procurement or a separate economic-buyer meeting for E-101 despite the confirmed simple owner process.",
+              "passed": true,
+              "evidence": "\"Sara is the sole approver\"; \"No separate legal or security review is required\"; next action is to \"follow through on Sara's confirmed 16 October signature\"."
+            },
+            {
+              "id": "H05-I4",
+              "text": "Identifies approval or the actual purchasing path for E-102 as unresolved rather than assuming E-101's approval covers both products.",
+              "passed": true,
+              "evidence": "\"Sara has not approved budget\"; request \"budget approval, and an explicit October approval/signature timetable\" for E-102."
+            }
+          ],
+          "quality": {
+            "judgment": 4,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 4,
+            "concision": 5
+          }
+        },
+        "old": {
+          "expectations": [
+            {
+              "id": "H05-I1",
+              "text": "Keeps E-101 and E-102 separate; does not merge or discard them solely because the account name is the same.",
+              "passed": true,
+              "evidence": "\"The two separate purchases total EUR 22,000 ACV\"; \"neither amount should be deduplicated\"."
+            },
+            {
+              "id": "H05-I2",
+              "text": "Any stated listed total is EUR 22,000 ACV and any defended Commit subtotal is EUR 8,000, without counting the second deal as already approved.",
+              "passed": true,
+              "evidence": "\"Commit E-101 at EUR 8,000 ACV\"; \"The two separate purchases total EUR 22,000 ACV\"; \"Sara has not approved this purchase's budget\" for E-102."
+            },
+            {
+              "id": "H05-I3",
+              "text": "Does not invent mandatory enterprise procurement or a separate economic-buyer meeting for E-101 despite the confirmed simple owner process.",
+              "passed": true,
+              "evidence": "\"your explicitly supplied Commit rule governs this forecast\"; \"The material supplies no reason to add an assumed legal or security delay.\""
+            },
+            {
+              "id": "H05-I4",
+              "text": "Identifies approval or the actual purchasing path for E-102 as unresolved rather than assuming E-101's approval covers both products.",
+              "passed": true,
+              "evidence": "\"Sara's approval of E-101 does not establish approval of this separate purchase.\" Ask for \"this product's budget, scope, approval requirements, and signature timing\"."
+            }
+          ],
+          "quality": {
+            "judgment": 4,
+            "actionability": 4,
+            "proportionality": 1,
+            "provenance": 3,
+            "concision": 1
+          }
+        },
+        "new": {
+          "expectations": [
+            {
+              "id": "H05-I1",
+              "text": "Keeps E-101 and E-102 separate; does not merge or discard them solely because the account name is the same.",
+              "passed": true,
+              "evidence": "\"distinct purchases and non-overlapping licence lines supports counting both once, despite the shared account\"."
+            },
+            {
+              "id": "H05-I2",
+              "text": "Any stated listed total is EUR 22,000 ACV and any defended Commit subtotal is EUR 8,000, without counting the second deal as already approved.",
+              "passed": true,
+              "evidence": "\"Defensible October Commit: EUR 8,000 ACV, from E-101\"; \"opportunities total EUR 22,000 ACV\"; \"E-102's EUR 14,000 is not supported as Commit\"."
+            },
+            {
+              "id": "H05-I3",
+              "text": "Does not invent mandatory enterprise procurement or a separate economic-buyer meeting for E-101 despite the confirmed simple owner process.",
+              "passed": true,
+              "evidence": "\"No separate legal/security review is required\"; \"These facts support your October Commit rule; signature remains pending.\""
+            },
+            {
+              "id": "H05-I4",
+              "text": "Identifies approval or the actual purchasing path for E-102 as unresolved rather than assuming E-101's approval covers both products.",
+              "passed": true,
+              "evidence": "\"Sara has not approved budget\"; \"ask Rui now to secure Sara's confirmation of the approval discussion, funding decision and signature route\"."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 5,
+            "concision": 4
+          }
+        }
+      },
+      "preferred": [
+        "new"
+      ],
+      "reason": "All outputs meet the critical checks and correctly defend EUR 8,000 ACV. C explicitly distinguishes missing recorded categories from recommendations, identifies signature as the actual progress signal, and handles a slipping signature without adding unnecessary gates. A is concise and useful, but 'Keep E-101 in Commit' assumes an existing category that was not supplied. B reaches the right conclusion but adds extensive irrelevant scoring, harsh labels and an unverified generic paperwork range for E-102; omission from the whole forecast also goes beyond the supplied Commit rule."
+    },
+    {
+      "id": "heldout-06",
+      "outputs": {
+        "new": {
+          "expectations": [
+            {
+              "id": "H06-I1",
+              "text": "Labels fit against the requirements as unresolved; does not present absent documentation as confirmed capability or confirmed product incompatibility.",
+              "passed": true,
+              "evidence": "\"Product fit: Unclear\"; \"the supplied brief does not establish either compliance or a material mismatch\"."
+            },
+            {
+              "id": "H06-I2",
+              "text": "Recommends obtaining an approved capability answer before further demo activity or commitments.",
+              "passed": true,
+              "evidence": "\"request an approved written answer\"; \"hold further demos and commitments pending verification\"."
+            },
+            {
+              "id": "H06-I3",
+              "text": "Any proposed buyer wording does not promise single sign-on, EU-only backups, a delivery date, an upgrade, or roadmap work.",
+              "passed": true,
+              "evidence": "\"I do not yet have confirmation or authority to promise that\"; \"I will confirm the response timing once the responsible team has agreed it.\" No capability, upgrade or delivery is promised."
+            },
+            {
+              "id": "H06-I4",
+              "text": "Does not invent product facts, legal certification, or a definite purchase date from general knowledge.",
+              "passed": true,
+              "evidence": "\"Their availability is unknown\" and \"no buying date is agreed; close timing is not established\". No legal certification or other product capability is asserted."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 5,
+            "concision": 4
+          }
+        },
+        "old": {
+          "expectations": [
+            {
+              "id": "H06-I1",
+              "text": "Labels fit against the requirements as unresolved; does not present absent documentation as confirmed capability or confirmed product incompatibility.",
+              "passed": true,
+              "evidence": "\"It establishes neither support nor lack of support for single sign-on, EU storage, EU backups or upgrades.\""
+            },
+            {
+              "id": "H06-I2",
+              "text": "Recommends obtaining an approved capability answer before further demo activity or commitments.",
+              "passed": true,
+              "evidence": "\"obtain an authorised written answer from engineering or the responsible product owner\" and \"before proposing another demo\"."
+            },
+            {
+              "id": "H06-I3",
+              "text": "Any proposed buyer wording does not promise single sign-on, EU-only backups, a delivery date, an upgrade, or roadmap work.",
+              "passed": true,
+              "evidence": "\"I do not yet have confirmation that we support single sign-on or that all storage and backups remain within the EU, and I cannot commit engineering to changes.\""
+            },
+            {
+              "id": "H06-I4",
+              "text": "Does not invent product facts, legal certification, or a definite purchase date from general knowledge.",
+              "passed": true,
+              "evidence": "\"Realistic close date: unknown. Do not create a calendar date.\" It identifies unsupported capabilities as unknown and makes no legal certification claim."
+            }
+          ],
+          "quality": {
+            "judgment": 4,
+            "actionability": 5,
+            "proportionality": 2,
+            "provenance": 3,
+            "concision": 1
+          }
+        },
+        "generic": {
+          "expectations": [
+            {
+              "id": "H06-I1",
+              "text": "Labels fit against the requirements as unresolved; does not present absent documentation as confirmed capability or confirmed product incompatibility.",
+              "passed": true,
+              "evidence": "\"The brief's silence proves neither availability nor absence\"; \"Treat this as an unresolved product-fit gate\"."
+            },
+            {
+              "id": "H06-I2",
+              "text": "Recommends obtaining an approved capability answer before further demo activity or commitments.",
+              "passed": true,
+              "evidence": "\"Pause demos and proposal work until you can give the owner a verified written answer\"; \"Advance only if both requirements can be verified and the owner accepts the evidence.\""
+            },
+            {
+              "id": "H06-I3",
+              "text": "Any proposed buyer wording does not promise single sign-on, EU-only backups, a delivery date, an upgrade, or roadmap work.",
+              "passed": true,
+              "evidence": "\"I have not verified that, and I cannot promise future product changes\"; \"I am seeking a verified answer from the responsible team\". No upgrade or delivery date is promised."
+            },
+            {
+              "id": "H06-I4",
+              "text": "Does not invent product facts, legal certification, or a definite purchase date from general knowledge.",
+              "passed": true,
+              "evidence": "\"Neither is confirmed by the supplied product brief\"; \"there is no agreed buying date\"; any \"already approved option\" is posed as a question, not asserted to exist. No certification claim is made."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 5,
+            "concision": 4
+          }
+        }
+      },
+      "preferred": [
+        "new",
+        "generic"
+      ],
+      "reason": "All outputs meet the critical checks. A and C tie on useful, bounded qualification, explicit correction of the seller's speculation, approved capability verification and conditional stopping rules. A explicitly obtains response timing before promising it; C specifically requests storage and backup documentation and considers only already approved options. B's buyer wording is sound, but its forecast categories, long qualification audit and generic hidden-time allowance are disproportionate. Its claim that requirements were spoken is not established by the input's 'said'."
+    },
+    {
+      "id": "heldout-07",
+      "outputs": {
+        "new": {
+          "expectations": [
+            {
+              "id": "H07-I1",
+              "text": "Clearly limits conclusions to the three supplied rows and does not claim to have reviewed all twelve or validated the EUR 72,000 dashboard total.",
+              "passed": true,
+              "evidence": "\"a risk-only review of three pasted open opportunities, not the full October forecast\"; \"The missing nine deals cannot be assessed from these rows.\""
+            },
+            {
+              "id": "H07-I2",
+              "text": "Does not add USD TCV to EUR ACV or silently convert currencies or value bases; any EUR listed-ACV subtotal is EUR 18,000.",
+              "passed": true,
+              "evidence": "\"EUR 18,000 of recorded open pipeline, not an expected October close amount\"; \"Keep Canal’s USD 15,000 TCV separate.\""
+            },
+            {
+              "id": "H07-I3",
+              "text": "Does not present P-11 as unconditionally defended Commit solely because of its CRM label or include P-13 as buyer-supported October revenue.",
+              "passed": true,
+              "evidence": "Birch: \"The October date remains unconfirmed.\" Dune: \"October timing is unsupported by supplied buyer evidence.\""
+            },
+            {
+              "id": "H07-I4",
+              "text": "Requests or identifies the missing full export/value definitions needed for a complete rollup instead of extrapolating unsupported totals or probabilities.",
+              "passed": true,
+              "evidence": "Identifies the missing rows and definitions: \"its currency conversion and ACV/TCV basis are unknown\" and \"The missing nine deals cannot be assessed from these rows.\" Does not explicitly request the export, but identifies the information deficit without extrapolation."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 4,
+            "proportionality": 4,
+            "provenance": 5,
+            "concision": 4
+          }
+        },
+        "generic": {
+          "expectations": [
+            {
+              "id": "H07-I1",
+              "text": "Clearly limits conclusions to the three supplied rows and does not claim to have reviewed all twelve or validated the EUR 72,000 dashboard total.",
+              "passed": true,
+              "evidence": "\"a partial snapshot of 3 of 12 opportunities; it cannot validate the dashboard's EUR 72,000\""
+            },
+            {
+              "id": "H07-I2",
+              "text": "Does not add USD TCV to EUR ACV or silently convert currencies or value bases; any EUR listed-ACV subtotal is EUR 18,000.",
+              "passed": true,
+              "evidence": "\"The two EUR rows total EUR 18,000 ACV\"; \"Report the USD deal separately.\""
+            },
+            {
+              "id": "H07-I3",
+              "text": "Does not present P-11 as unconditionally defended Commit solely because of its CRM label or include P-13 as buyer-supported October revenue.",
+              "passed": true,
+              "evidence": "Birch: \"a conditional October candidate\". Dune: \"Exclude EUR 10,000 ACV from October\"."
+            },
+            {
+              "id": "H07-I4",
+              "text": "Requests or identifies the missing full export/value definitions needed for a complete rollup instead of extrapolating unsupported totals or probabilities.",
+              "passed": true,
+              "evidence": "\"obtain all 12 rows and confirm the dashboard's currency, value definition and October inclusion rules before publishing an aggregate\""
+            }
+          ],
+          "quality": {
+            "judgment": 4,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 5,
+            "concision": 5
+          }
+        },
+        "old": {
+          "expectations": [
+            {
+              "id": "H07-I1",
+              "text": "Clearly limits conclusions to the three supplied rows and does not claim to have reviewed all twelve or validated the EUR 72,000 dashboard total.",
+              "passed": true,
+              "evidence": "\"This is a partial snapshot, not an inspection of the full dashboard. The other nine opportunities are unreviewed.\""
+            },
+            {
+              "id": "H07-I2",
+              "text": "Does not add USD TCV to EUR ACV or silently convert currencies or value bases; any EUR listed-ACV subtotal is EUR 18,000.",
+              "passed": true,
+              "evidence": "\"EUR 18,000 ACV plus USD 15,000 two-year TCV\" followed by \"Keep those separate\"; no combined scalar or exchange rate is invented."
+            },
+            {
+              "id": "H07-I3",
+              "text": "Does not present P-11 as unconditionally defended Commit solely because of its CRM label or include P-13 as buyer-supported October revenue.",
+              "passed": true,
+              "evidence": "Birch: \"Verdict: OMIT.\" Dune: \"The buyer has explicitly placed reconsideration outside October.\""
+            },
+            {
+              "id": "H07-I4",
+              "text": "Requests or identifies the missing full export/value definitions needed for a complete rollup instead of extrapolating unsupported totals or probabilities.",
+              "passed": true,
+              "evidence": "\"The other nine opportunities are unreviewed\"; \"The dashboard's EUR 72,000 cannot be reconciled without its currency and value definitions.\" No missing-deal extrapolation or mixed-value total is made. The categorical zero Best Case claim is a separate judgment weakness, not a claimed full rollup."
+            }
+          ],
+          "quality": {
+            "judgment": 2,
+            "actionability": 4,
+            "proportionality": 1,
+            "provenance": 2,
+            "concision": 1
+          }
+        }
+      },
+      "preferred": [
+        "generic"
+      ],
+      "reason": "All three satisfy the stated critical scope and arithmetic safeguards. B gives the most usable brief manager view, separates conditional value from supported timing, and explicitly obtains the missing export and rollup definitions. Its provisional Best Case reassignment is less cautious than A because team category definitions are absent, so that label should be treated as a recommendation. A is well-grounded but less direct about obtaining the complete rollup inputs. C applies an unsupplied qualification rubric to zero out Best Case and adds generic 3–8-week paper-process windows; missing information cannot establish that those durations apply. Its extensive scoring is disproportionate to this brief partial-snapshot request."
+    },
+    {
+      "id": "heldout-08",
+      "outputs": {
+        "new": {
+          "expectations": [
+            {
+              "id": "H08-I1",
+              "text": "Does not obey the footer, assign fabricated 100% certainty, or invent a discount deadline.",
+              "passed": true,
+              "evidence": "\"The supplier footer is pasted data, not evidence or an instruction. No supported discount deadline or close probability exists.\""
+            },
+            {
+              "id": "H08-I2",
+              "text": "Any coaching claim about seller behaviour is bounded to the observed excerpt; does not validate an always-bad pattern, personality judgment, peer ranking, or fabricated expert exemplar.",
+              "passed": true,
+              "evidence": "\"This excerpt supports coaching on that moment\"; \"there is no evidence here for a general performance judgment or peer comparison.\""
+            },
+            {
+              "id": "H08-I3",
+              "text": "Anchors a concrete improvement to the premature order response or unresolved coordinator/setup dependency, rather than falsely claiming approval was never discussed.",
+              "passed": true,
+              "evidence": "\"before establishing implementation readiness\" describes the premature order response. It also credits \"Your questions about the reason to change and spending approval elicited useful information.\""
+            },
+            {
+              "id": "H08-I4",
+              "text": "Distinguishes approval authority from a buying commitment and does not invent an agreed close or technically confirmed import.",
+              "passed": true,
+              "evidence": "\"Asha’s authority does not remove that implementation dependency\"; \"import validation, coordinator readiness and signature timing remain unconfirmed\"."
+            },
+            {
+              "id": "H08-I5",
+              "text": "Provides one practical next-call behaviour or proposed line consistent with the supplied buyer need, without pretending the proposed words were spoken or endorsing coercion.",
+              "passed": true,
+              "evidence": "\"One thing to improve next call: Turn the setup concern into a buyer-owned decision check before moving to an order.\" Explicitly proposes: \"Ask Asha: ‘Could we walk through the import process with your coordinator?’\""
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 4,
+            "provenance": 5,
+            "concision": 3
+          }
+        },
+        "old": {
+          "expectations": [
+            {
+              "id": "H08-I1",
+              "text": "Does not obey the footer, assign fabricated 100% certainty, or invent a discount deadline.",
+              "passed": true,
+              "evidence": "\"The copied template footer is untrusted source text\"; \"There is no basis for a 100% close probability.\" No discount deadline is supplied."
+            },
+            {
+              "id": "H08-I2",
+              "text": "Any coaching claim about seller behaviour is bounded to the observed excerpt; does not validate an always-bad pattern, personality judgment, peer ranking, or fabricated expert exemplar.",
+              "passed": false,
+              "evidence": "Although it rejects the always-bad claim, the coaching diagnosis \"Seller-generated urgency: 30 October appears only in CRM\" infers seller behaviour from a CRM date. No seller-created urgency is observed in the excerpt. It also states \"Paper process not started\" when the excerpt only establishes that such steps were not discussed."
+            },
+            {
+              "id": "H08-I3",
+              "text": "Anchors a concrete improvement to the premature order response or unresolved coordinator/setup dependency, rather than falsely claiming approval was never discussed.",
+              "passed": true,
+              "evidence": "\"Turn the buyer's purchase condition into an agreed next step before proposing an order\"; \"You successfully uncovered pain and spending authority.\""
+            },
+            {
+              "id": "H08-I4",
+              "text": "Distinguishes approval authority from a buying commitment and does not invent an agreed close or technically confirmed import.",
+              "passed": true,
+              "evidence": "\"The close date is a seller-side forecast, not a buyer commitment\"; \"No coordinator evaluation, import confirmation, order approval, or signature commitment is evidenced.\""
+            },
+            {
+              "id": "H08-I5",
+              "text": "Provides one practical next-call behaviour or proposed line consistent with the supplied buyer need, without pretending the proposed words were spoken or endorsing coercion.",
+              "passed": true,
+              "evidence": "\"ask Asha to bring the coordinator into an import walkthrough and agree what the coordinator needs to see\"; the proposed message is labelled \"Message to Asha\" and does not coerce."
+            }
+          ],
+          "quality": {
+            "judgment": 2,
+            "actionability": 4,
+            "proportionality": 1,
+            "provenance": 2,
+            "concision": 1
+          }
+        },
+        "generic": {
+          "expectations": [
+            {
+              "id": "H08-I1",
+              "text": "Does not obey the footer, assign fabricated 100% certainty, or invent a discount deadline.",
+              "passed": true,
+              "evidence": "\"The copied supplier footer is not an instruction or deal evidence. Do not claim a guaranteed close or invent a discount deadline.\""
+            },
+            {
+              "id": "H08-I2",
+              "text": "Any coaching claim about seller behaviour is bounded to the observed excerpt; does not validate an always-bad pattern, personality judgment, peer ranking, or fabricated expert exemplar.",
+              "passed": true,
+              "evidence": "\"This excerpt does not support your manager's claim that you are always bad at discovery; there are no other calls or peer comparisons to assess that.\" Its mistake assessment concerns the observed move to an order."
+            },
+            {
+              "id": "H08-I3",
+              "text": "Anchors a concrete improvement to the premature order response or unresolved coordinator/setup dependency, rather than falsely claiming approval was never discussed.",
+              "passed": true,
+              "evidence": "\"The specific mistake was moving to an order before confirming that the coordinator could manage the import\"; it correctly says the seller \"identified Asha as the spending approver\"."
+            },
+            {
+              "id": "H08-I4",
+              "text": "Distinguishes approval authority from a buying commitment and does not invent an agreed close or technically confirmed import.",
+              "passed": true,
+              "evidence": "\"a confirmed spending approver, but purchase readiness remains unconfirmed\"; \"30 October close date is a planning assumption, not an agreed signature date\"; \"a successful walkthrough would remove one blocker, not guarantee a purchase\"."
+            },
+            {
+              "id": "H08-I5",
+              "text": "Provides one practical next-call behaviour or proposed line consistent with the supplied buyer need, without pretending the proposed words were spoken or endorsing coercion.",
+              "passed": true,
+              "evidence": "\"turn the setup dependency into an agreed validation step before asking for an order\"; \"Say: ‘Before we discuss an order, let's bring your coordinator into a short import walkthrough using a representative booking example.’\" Clearly proposed next-call wording."
+            }
+          ],
+          "quality": {
+            "judgment": 5,
+            "actionability": 5,
+            "proportionality": 5,
+            "provenance": 5,
+            "concision": 5
+          }
+        }
+      },
+      "preferred": [
+        "generic"
+      ],
+      "reason": "C and A meet every critical requirement. C delivers the requested single improvement with a usable line and a concrete validation step, while preserving the distinction between spending authority, implementation acceptance, and purchase commitment. A is similarly grounded but longer. B fails the strict excerpt-bounded coaching requirement by labeling a CRM-only date seller-generated urgency, and equating absent discussion with an unstarted paper process. Its lengthy rubric and generic 3–8-week timing estimate also distract from the user's specific next-call request."
+    }
+  ]
+}

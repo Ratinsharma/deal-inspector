@@ -1,0 +1,9 @@
+**Recommendation:** Resolve a blocker. Product fit is **Unclear**: the owner's interest supports product appeal, but the material does not establish the problem, required capabilities or value. Do not offer 10% off yet. The price comparison needs clarification, and concession authority is not supplied.
+
+**Evidence and main blocker:** The seller's notes report the owner saying the €12,000 quote is 20% above another vendor. Competing scope and implementation costs are unknown, so this is not yet a like-for-like cost comparison. Affordability, uncertain value, different scope and negotiation are possible explanations, not established facts. Urgency and a next buyer commitment are also not established in the material.
+
+If “20% above” means our quote equals 1.2 times the competing price, the implied competing quote is €12,000 ÷ 1.2 = €10,000. A 10% reduction would make our quote €10,800, still 8% above that implied price. This conditional arithmetic neither verifies the other quote nor justifies a discount.
+
+**Questions:** Is the issue a spending limit, insufficient value for the difference, or a competing offer with equivalent scope? What implementation and ongoing costs does each offer include? If the comparison is resolved, what decision would the owner make and by when?
+
+**Next action:** Suggested owner: the rep. Suggested timing: the next buyer conversation. Ask: “When you say we are 20% higher, is the main concern your budget limit or whether our extra value justifies the difference? Can we compare what each price includes and agree the next decision?” Progress means a clarified objection, a comparable scope/cost view and a buyer-agreed decision step. If the buyer cannot establish a current decision, agree a check-in tied to a real buying condition. Any proposed concession must first have approved authority; no discount policy or buyer exchange is established here.

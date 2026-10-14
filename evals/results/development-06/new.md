@@ -1,0 +1,9 @@
+**Recommendation:** Resolve a blocker. Product fit is **Unclear**: the material provides no problem or capability evidence. The immediate issue is establishing the buyer's actual timeline and remaining approval steps.
+
+**Evidence and main blocker:** An undated note reports the buyer saying “next Friday.” This is reported buyer evidence, but neither its calendar date nor what the buyer intended to happen that Friday is established. The rep says Q4 close; the relevant year and fiscal/calendar convention are unknown. Legal review has not started, and no duration or completion commitment is supplied. These facts cannot support a realistic calendar close date.
+
+**Questions:** What was the date of the buyer conversation, and what event did “next Friday” refer to? Who owns legal review, when can it start, and what completion timing can they confirm? Which Q4 and review date should this assessment use, and what steps remain after legal approval?
+
+**Next action:** Suggested owner: the rep. Suggested timing: the next buyer conversation. Ask: “When you said next Friday, which date and milestone did you mean? Can we confirm who will start legal review, their expected completion date, and the approvals needed before signing?” Progress means buyer-confirmed calendar dates, owners and dependencies through signing. If the buyer cannot commit to completion timing, agree the next legal-review checkpoint and leave close timing unestablished.
+
+**Forecast note, risk only:** **Supplied amount:** $8,000 annually; the material does not establish whether this is a recorded CRM value or its precise value basis. **Seller expectation:** Q4. No recorded calendar close date or category is supplied. **Close timing not established.** A date would be invented until the relative date is anchored and legal timing and subsequent dependencies are confirmed. A category assessment would also require the forecast period and team definitions.

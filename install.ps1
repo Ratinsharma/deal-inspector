@@ -1,53 +1,81 @@
+[CmdletBinding()]
 param(
-    [string]$TargetDir = "",
-    [switch]$Force = $false
+    [string]$TargetDir = (Join-Path ([Environment]::GetFolderPath('UserProfile')) '.claude/skills'),
+    [switch]$Force
 )
+$ErrorActionPreference = 'Stop'
 
-$skillFile = Join-Path $PSScriptRoot "SKILL.md"
+function Assert-SafePath([string]$Path) {
+    $current = [IO.Path]::GetFullPath($Path)
+    while ($current) {
+        if (Test-Path -LiteralPath $current) {
+            $item = Get-Item -LiteralPath $current -Force
+            if ($item.Attributes -band [IO.FileAttributes]::ReparsePoint) {
+                throw "Linked paths are not supported: $current"
+            }
+        }
+        $parent = [IO.Directory]::GetParent($current)
+        if ($null -eq $parent) { break }
+        $current = $parent.FullName
+    }
+}
 
-if (-not (Test-Path $skillFile)) {
-    Write-Error "SKILL.md not found next to this script. Run install.ps1 from the repo root."
+try {
+    if ([string]::IsNullOrWhiteSpace($TargetDir)) { throw 'TargetDir must name a skills directory.' }
+    $root = [IO.Path]::GetFullPath($TargetDir)
+    $destination = Join-Path $root 'deal-inspector'
+    $marker = Join-Path $destination '.deal-inspector-owned'
+    Assert-SafePath $destination
+    foreach ($name in @('SKILL.md', 'LICENSE')) {
+        if (-not (Test-Path -LiteralPath (Join-Path $PSScriptRoot $name) -PathType Leaf)) {
+            throw "$name is missing beside the installer."
+        }
+    }
+    if (Test-Path -LiteralPath $destination) {
+        if (-not (Test-Path -LiteralPath $destination -PathType Container)) { throw 'Install destination is not a directory.' }
+        Assert-SafePath $marker
+        if (-not (Test-Path -LiteralPath $marker -PathType Leaf)) { throw 'Existing directory has no Deal Inspector ownership marker; refusing to overwrite it.' }
+        $lines = @(Get-Content -LiteralPath $marker)
+        if ($lines.Count -ne 3 -or $lines[0] -cne 'deal-inspector-v2' -or
+            $lines[1] -cnotmatch '^[a-f0-9]{64}  SKILL\.md$' -or
+            $lines[2] -cnotmatch '^[a-f0-9]{64}  LICENSE$') { throw 'Invalid ownership marker.' }
+        foreach ($name in @('SKILL.md', 'LICENSE')) {
+            $owned = Join-Path $destination $name
+            Assert-SafePath $owned
+            if ((Test-Path -LiteralPath $owned) -and -not (Test-Path -LiteralPath $owned -PathType Leaf)) { throw "Owned path is not a file: $name" }
+        }
+        if (-not $Force) { throw 'Already installed. Use -Force to replace the two owned files; local edits will be overwritten.' }
+    }
+    New-Item -ItemType Directory -Path $destination -Force | Out-Null
+    $stage = Join-Path $destination ('.install.' + [Guid]::NewGuid().ToString('N'))
+    New-Item -ItemType Directory -Path $stage | Out-Null
+    try {
+        $manifest = @('deal-inspector-v2')
+        foreach ($name in @('SKILL.md', 'LICENSE')) {
+            Copy-Item -LiteralPath (Join-Path $PSScriptRoot $name) -Destination (Join-Path $stage $name)
+            $hash = (Get-FileHash -LiteralPath (Join-Path $stage $name) -Algorithm SHA256).Hash.ToLowerInvariant()
+            $manifest += "$hash  $name"
+        }
+        [IO.File]::WriteAllText((Join-Path $stage '.deal-inspector-owned'), ($manifest -join "`n") + "`n", [Text.UTF8Encoding]::new($false))
+        # Replace path entries rather than writing through a possible hard link.
+        foreach ($name in @('SKILL.md', 'LICENSE', '.deal-inspector-owned')) {
+            $owned = Join-Path $destination $name
+            if (Test-Path -LiteralPath $owned) { Remove-Item -LiteralPath $owned -Force }
+            Move-Item -LiteralPath (Join-Path $stage $name) -Destination $owned -Force
+        }
+    } finally {
+        foreach ($name in @('SKILL.md', 'LICENSE', '.deal-inspector-owned')) {
+            $stagedFile = Join-Path $stage $name
+            if (Test-Path -LiteralPath $stagedFile -PathType Leaf) { Remove-Item -LiteralPath $stagedFile -Force }
+        }
+        # Dot-prefixed staging paths are hidden on Unix; -Force permits only this checked, empty path.
+        if (Test-Path -LiteralPath $stage) { Remove-Item -LiteralPath $stage -Force }
+    }
+    Write-Host "Installed Deal Inspector in $destination"
+    Write-Host 'Start a new Claude Code session and invoke /deal-inspector.'
+    Write-Host 'An old deal-inspector-SKILL.md file is left untouched. Use uninstall.ps1 -Legacy -Force with the same TargetDir to remove it explicitly.'
+} catch {
+    Write-Error ("{0} (line {1})" -f $_.Exception.Message, $_.InvocationInfo.ScriptLineNumber) -ErrorAction Continue
     exit 1
 }
 
-# Detect target directory
-if (-not $TargetDir) {
-    $candidates = @(
-        "$env:USERPROFILE\.claude\skills",
-        "$env:USERPROFILE\.config\opencode\skills",
-        "$env:USERPROFILE\.claude\skills\ecc",
-        "$env:USERPROFILE\.local\share\claude\skills"
-    )
-    foreach ($dir in $candidates) {
-        if (Test-Path $dir) {
-            $TargetDir = $dir
-            break
-        }
-    }
-}
-
-if (-not $TargetDir) {
-    # Default to ECC skills dir
-    $TargetDir = "$env:USERPROFILE\.claude\skills"
-}
-
-# Create target if missing
-if (-not (Test-Path $TargetDir)) {
-    New-Item -ItemType Directory -Path $TargetDir -Force | Out-Null
-    Write-Host "Created $TargetDir" -ForegroundColor Yellow
-}
-
-$targetPath = Join-Path $TargetDir "deal-inspector-SKILL.md"
-
-if ((Test-Path $targetPath) -and -not $Force) {
-    $response = Read-Host "$targetPath already exists. Overwrite? (y/N)"
-    if ($response -ne 'y' -and $response -ne 'Y') {
-        Write-Host "Install cancelled." -ForegroundColor Red
-        exit 1
-    }
-}
-
-Copy-Item -Path $skillFile -Destination $targetPath -Force
-Write-Host "Installed Deal Inspector to $targetPath" -ForegroundColor Green
-Write-Host ""
-Write-Host "Load it in Claude Code:  /skill deal-inspector" -ForegroundColor Cyan
