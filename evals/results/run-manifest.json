@@ -1,0 +1,24 @@
+{
+  "evaluation_dates": [
+    "2026-10-13",
+    "2026-10-14"
+  ],
+  "fictional": true,
+  "original_commit": "f634f7c53b26d08de658bd3f8f8a18e6dadfbd8c",
+  "skill_sha256": "1dc4a74236cd89b6af0f293795bf6984309472a76a394961d0126353f9037259",
+  "heldout_sha256": "b6aefd883fcc0d6b8e2bbb7085507da0542b8523a0c3e0278e141b854bab3c86",
+  "execution": "Fresh Codex subagents per held-out case and variant; same inherited session model, no explicit model overrides.",
+  "model_id": null,
+  "settings": "Exact model identifier, sampling parameters, timing and token telemetry were not exposed by the orchestration tool.",
+  "generic_prompt": "Review the B2B deal or pipeline and recommend a useful next action based only on supplied evidence.",
+  "normalization": "Session-wide trailing status/insider footer omitted from blind packets and examples; raw outputs retained.",
+  "limitations": [
+    "AI-generated grading; no human seller pilot",
+    "Variant labels hidden, but content style may reveal a variant",
+    "One inherited model family/session configuration; no cross-model claim"
+  ],
+  "development_execution": "Three fresh generation agents, four cases each; one separate AI grader. Development checks are smoke tests, not blind comparisons.",
+  "repeat_execution": "Two additional fresh v2 runs each on heldout-03, 06, 07 and 08; separate AI graders; no original/generic repeat comparison.",
+  "raw_outputs_published": false,
+  "raw_outputs_note": "Original outputs retained in the local evaluation workspace; published reports omit only trailing session status/insider footers."
+}

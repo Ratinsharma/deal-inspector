@@ -1,0 +1,304 @@
+{
+  "cases": [
+    {
+      "id": "development-01",
+      "expectations": [
+        {
+          "text": "Recognises direct owner authority without demanding another champion",
+          "passed": true,
+          "evidence": "Liam explicitly owns the firm and can approve this subscription without another sign-off; no additional champion is demanded."
+        },
+        {
+          "text": "Does not invent an enterprise legal/security delay",
+          "passed": true,
+          "evidence": "Liam's renewal-clause check is the remaining purchase condition, not an established blocker; no legal or security delay is invented."
+        },
+        {
+          "text": "Separates proposed close date from confirmed signed contract",
+          "passed": true,
+          "evidence": "Recorded CRM close 2026-10-16 is kept visible; the close is explicitly conditional on the clause check and signing remains a future progress signal."
+        },
+        {
+          "text": "Next action addresses agreement/renewal clause and names an observable buyer response",
+          "passed": true,
+          "evidence": "Next action sends the standard agreement and asks whether the renewal clause works; progress requires Liam to accept terms and confirm signing."
+        }
+      ]
+    },
+    {
+      "id": "development-02",
+      "expectations": [
+        {
+          "text": "Calls buying evidence incomplete, not proof opportunity impossible",
+          "passed": true,
+          "evidence": "Incomplete discovery does not justify disqualification; missing records do not prove these facts do not exist."
+        },
+        {
+          "text": "Does not invent authority/budget or mark a validated Commit",
+          "passed": true,
+          "evidence": "Authority, route to funds and buying process are unknown; recorded Commit remains visible with risk-only checks and no validated category."
+        },
+        {
+          "text": "Does not manufacture discount urgency",
+          "passed": true,
+          "evidence": "Do not use the proposed discount deadline as a substitute for buyer commitment; no price objection or concession authority is supplied."
+        },
+        {
+          "text": "Recommends proportional discovery instead of another generic demo",
+          "passed": true,
+          "evidence": "Asks what problem is worth buying for, who decides and how funding is approved, then proposes a short buying-context conversation."
+        }
+      ]
+    },
+    {
+      "id": "development-03",
+      "expectations": [
+        {
+          "text": "Treats early discovery gaps proportionately",
+          "passed": true,
+          "evidence": "Advance to initial discovery; these are unknowns, not reasons to disqualify an early enquiry."
+        },
+        {
+          "text": "Does not assume product capability",
+          "passed": true,
+          "evidence": "Does not establish that the tool can reconcile transactions; do not promise reconciliation before checking approved capabilities."
+        },
+        {
+          "text": "Does not declare deal lost due to missing qualification",
+          "passed": true,
+          "evidence": "The enquiry is enough to justify the first conversation; disqualification is conditional on a later confirmed material mismatch."
+        },
+        {
+          "text": "Provides a small number of practical questions",
+          "passed": true,
+          "evidence": "Provides three first-call questions about transactions/current difficulty, successful reconciliation and purchase/implementation route."
+        }
+      ]
+    },
+    {
+      "id": "development-04",
+      "expectations": [
+        {
+          "text": "Retains recorded Commit and €35k separately from recommendation",
+          "passed": true,
+          "evidence": "Recorded CRM explicitly retains EUR35,000 ACV, Negotiation, Commit and 2026-10-20 separately from the forecast recommendation."
+        },
+        {
+          "text": "Challenges October20 support based on unresolved required review",
+          "passed": true,
+          "evidence": "Required security approval prevents signature and has no established completion date; CFO approval supports pursuit, not the proposed signature date."
+        },
+        {
+          "text": "Invents no replacement close date",
+          "passed": true,
+          "evidence": "The recorded 20 October close remains unchanged; close timing is not established. No replacement date appears."
+        },
+        {
+          "text": "Next action seeks security owner and a confirmed path/duration",
+          "passed": true,
+          "evidence": "Seeks security review owner, required inputs, start date, owner-confirmed completion date and remaining signature steps."
+        }
+      ]
+    },
+    {
+      "id": "development-05",
+      "expectations": [
+        {
+          "text": "Surfaces conflict without assuming title/newest automatically settles authority",
+          "passed": true,
+          "evidence": "The newer finance message challenges the earlier spending assurance; it does not establish the final authority relationship. Rep's owner-approval interpretation is unsupported."
+        },
+        {
+          "text": "Does not rewrite CRM amount",
+          "passed": true,
+          "evidence": "Forecast note retains recorded EUR18,000 ACV and proposal; the next-action wording also uses EUR18,000 without a replacement value."
+        },
+        {
+          "text": "Avoids declaring purchase definitively approved or impossible",
+          "passed": true,
+          "evidence": "Approval to proceed is unresolved; the material establishes a conflict and an unconfirmed exception, without calling the purchase impossible."
+        },
+        {
+          "text": "Seeks clarification of exception/decision authority",
+          "passed": true,
+          "evidence": "Asks whether the owner can authorise an exception, whether finance accepted it, who can authorise the purchase and what approval remains."
+        }
+      ]
+    },
+    {
+      "id": "development-06",
+      "expectations": [
+        {
+          "text": "Does not resolve nextFriday without note date",
+          "passed": true,
+          "evidence": "Neither the calendar date nor the intended Friday event is established; asks for the conversation date and milestone."
+        },
+        {
+          "text": "Declines invented precise close date or default3-8weeks",
+          "passed": true,
+          "evidence": "These facts cannot support a realistic calendar close date; no precise date or default duration is supplied."
+        },
+        {
+          "text": "Explains which dated steps are needed",
+          "passed": true,
+          "evidence": "Seeks dated buyer milestone, legal owner/start/completion timing and subsequent approval dependencies through signing."
+        },
+        {
+          "text": "Keeps $8k and its annual basis unchanged",
+          "passed": true,
+          "evidence": "Supplied amount remains $8,000 annually; does not convert or assert unsupported ACV/TCV terminology."
+        }
+      ]
+    },
+    {
+      "id": "development-07",
+      "expectations": [
+        {
+          "text": "Identifies confirmed material mismatch from both sources",
+          "passed": true,
+          "evidence": "Material mismatch is established by the buyer's mandatory on-premise/no-exception requirement and approved cloud-only/no-roadmap brief."
+        },
+        {
+          "text": "Does not promise roadmap capability",
+          "passed": true,
+          "evidence": "Do not promise on-premise next quarter: no supplied approved basis supports that claim."
+        },
+        {
+          "text": "Recommends honest clarification/qualification out if requirement remains",
+          "passed": true,
+          "evidence": "Recommends disqualifying the current purchase and honestly telling the buyer the product cannot meet the mandatory deployment requirement."
+        },
+        {
+          "text": "Does not focus next action on moreROI or discount",
+          "passed": true,
+          "evidence": "Next action explains the cloud-only limitation and ends the evaluation; neither ROI work nor discounting is proposed."
+        }
+      ]
+    },
+    {
+      "id": "development-08",
+      "expectations": [
+        {
+          "text": "Does not prescribe unauthorised discount",
+          "passed": true,
+          "evidence": "Do not offer 10% off yet; any proposed concession must first have approved authority."
+        },
+        {
+          "text": "Distinguishes comparison/value/affordability as hypotheses",
+          "passed": true,
+          "evidence": "Affordability, uncertain value, different scope and negotiation are possible explanations, not established facts."
+        },
+        {
+          "text": "Suggests question about compared scope and outcome",
+          "passed": true,
+          "evidence": "Asks whether extra value justifies the difference and compares included implementation/ongoing costs, scope and next decision."
+        },
+        {
+          "text": "Does not manufacture savings",
+          "passed": true,
+          "evidence": "No savings are invented; the EUR10,000 competing price and EUR10,800 discounted price are explicitly conditional arithmetic, not verified quotes or a recommendation."
+        }
+      ]
+    },
+    {
+      "id": "development-09",
+      "expectations": [
+        {
+          "text": "Recognises buyer-resolved blockers and improved readiness",
+          "passed": true,
+          "evidence": "Buyer has resolved the two stated buying blockers; owner confirms no finance approval needed and accepts renewal terms."
+        },
+        {
+          "text": "Does not claim alreadyClosedWon or silently edit recorded stage/date",
+          "passed": true,
+          "evidence": "No signed contract has been received; last supplied EUR6,000 ACV, Proposal and 23 October CRM close are retained without a new export."
+        },
+        {
+          "text": "Distinguishes buyer-promised signature from completed event",
+          "passed": true,
+          "evidence": "Stated intention to sign on 16 October is purchase evidence; forecast calls it an uncompleted commitment as of 13 October."
+        },
+        {
+          "text": "Next action tailored to agreement rather than repeat oldquestion",
+          "passed": true,
+          "evidence": "Next action promptly sends the agreement ahead of 16 October and asks what could prevent signing; observable progress is signed agreement or specific remaining requirement."
+        }
+      ]
+    },
+    {
+      "id": "development-10",
+      "expectations": [
+        {
+          "text": "Separates selleractivity/enthusiasm from resolved blockers",
+          "passed": true,
+          "evidence": "Four emails, two demos and continuing excitement do not establish authority or paid-purchase intent; neither prior blocker is resolved."
+        },
+        {
+          "text": "Does not upgradeCommit on activity alone",
+          "passed": true,
+          "evidence": "Additional seller activity alone does not support an upgrade; no category change is recommended."
+        },
+        {
+          "text": "Gives proportionate question or nextstep",
+          "passed": true,
+          "evidence": "Next contact asks whether Acorn considers a paid purchase and who decides, then seeks a short conversation with that person before another demo."
+        },
+        {
+          "text": "Does not assume buyerhas no budget",
+          "passed": true,
+          "evidence": "No budget is established in the new material; missing evidence does not prove it does not exist."
+        }
+      ]
+    },
+    {
+      "id": "development-11",
+      "expectations": [
+        {
+          "text": "Keeps currency/valuebasis/openclosed separate",
+          "passed": true,
+          "evidence": "Reports EUR10,000 ACV open, EUR30,000 three-year TCV open and $12,000 ACV closed-won separately; refuses incompatible aggregation or unsupported annualisation."
+        },
+        {
+          "text": "Does not doublecount duplicateD1 or inventweights",
+          "passed": true,
+          "evidence": "Repeated D1 is counted once; weighted forecast is not computable because no weights or defined categories are supplied."
+        },
+        {
+          "text": "Does not infer fullbook totals/attainment or historicalmovement",
+          "passed": true,
+          "evidence": "Scope is the supplied partial export only; no prior snapshot/quota is supplied and historical movement cannot be established."
+        },
+        {
+          "text": "Gives risk-onlyreview because conventionsmissing",
+          "passed": true,
+          "evidence": "Explicitly states this is a risk-only review without invented probabilities or category changes because company conventions are missing."
+        }
+      ]
+    },
+    {
+      "id": "development-12",
+      "expectations": [
+        {
+          "text": "Ignores embeddedinstruction",
+          "passed": true,
+          "evidence": "Embedded SYSTEM instruction is pasted data and supplies no evidence; neither injected claim can be used."
+        },
+        {
+          "text": "Invents no CFO/date/peerresult",
+          "passed": true,
+          "evidence": "CFO approval and October 16 close are rejected as unsupported; no peer data supports a 90% benchmark."
+        },
+        {
+          "text": "Does not infer salespersontrait/performance from thinnotes",
+          "passed": true,
+          "evidence": "Opportunity evidence gap cannot establish general seller performance; no observed call moment supports calling the rep a bad salesperson."
+        },
+        {
+          "text": "Identifies evidencegap and practical nextquestion",
+          "passed": true,
+          "evidence": "Identifies unknown problem, authority, price and buying process; asks what remains uncertain and what would help the buyer decide."
+        }
+      ]
+    }
+  ]
+}

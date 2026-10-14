@@ -1,139 +1,54 @@
-# MEDDPICC Framework Reference
+# Qualification reference
 
-A forensic deal inspection framework used by top-tier B2B sales organizations. Each element is scored 0-2 based on **evidence**, not sentiment.
+MEDDPICC is a set of questions for understanding a purchase. It is not a validated win-probability model. Deal Inspector uses it more deeply when supplied facts describe a complex buying process; a simple founder purchase does not need an enterprise checklist. The root SKILL.md contains the core instructions; this reference is supporting explanation.
 
----
+## Evidence before labels
 
-## The 8 Elements
+Separate buyer statements and actions, seller reports, assumptions, unknowns, contradictions, and confirmed non-applicability. A verbal statement is evidence of what was said, not necessarily proof that the promised action occurred. Written confirmation can improve clarity but is not a universal requirement.
 
-### M — Metrics
+Preserve the source and date when supplied. Do not describe pasted notes as independently verified. Missing from the notes means **not established here**, not **does not exist**. A later note supersedes an earlier one only when it clearly updates or contradicts it. Prefer the smallest practical collection step that resolves a material uncertainty.
 
-Can the buyer quantify the pain in their own numbers?
+## The questions behind MEDDPICC
 
-| Score | Meaning |
-|-------|---------|
-| 2 | Buyer stated a specific figure (cost, time, headcount, risk) in writing |
-| 1 | Pain acknowledged but unquantified, or number came from seller's deck |
-| 0 | No economic quantification exists |
+| Element | What to establish | Avoid |
+| --- | --- | --- |
+| Metrics | Buyer outcomes and supplied baseline, impact, or success measure. | Requiring quantified ROI for every purchase or inventing savings. |
+| Economic buyer | Who can authorise this spend and what matters to them. | Assuming authority from a title, signature, or previous purchase. |
+| Decision criteria | Buyer requirements, tradeoffs, and success definition. | Requiring the seller to have shaped the criteria. |
+| Decision process | How the buyer chooses whether and what to buy, participants, and evidenced checkpoints. | Assuming a committee or treating an optimistic date as an agreed process. |
+| Paper process | Steps needed to execute an agreement after or alongside the buying decision. | Inventing legal, security, procurement, or standard delays. |
+| Identified pain | Problem consequences, priority, and desired change. | Declaring an early deal dead because no financial impact appears in the notes. |
+| Champion | Relevant influence, a reason to support change, and meaningful action. | Calling every friendly contact a champion or requiring a separate champion in an owner purchase. |
+| Competition | Vendors, internal options, priorities, and doing nothing where relevant. | Inventing competitors or assuming an absent comparison means a rigged evaluation. |
 
-**Why it matters:** Without a number, there is no business case. Without a business case, there is no procurement priority. A deal with unquantified pain will lose to any deal that has one.
+The decision process concerns the buying decision. The paper process concerns completing the agreement. They can overlap, and some SMB purchases have a short, confirmed approval and signature path. See [MEDDICC's paper-process explanation](https://meddicc.com/what-is-meddpicc/paper-process).
 
----
+## Adapt to the purchase
 
-### E — Economic Buyer
+A founder may be the sponsor, economic buyer, and decision-maker. Confirm that authority and consider whether another person must approve or implement the change. Role overlap is not evidence of a missing stakeholder. Single-threading becomes a risk when a required participant is absent, not simply because one person appears in the notes.
 
-Not "who has budget authority in theory." Who has personally signed something like this before?
+Use deeper qualification when supplied facts show several stakeholders, an evaluation, formal approvals, or other material dependencies. Do not infer complexity from price alone. Confirmed non-applicability needs a basis, such as an owner explaining that they approve and sign directly.
 
-| Score | Meaning |
-|-------|---------|
-| 2 | Named, and the seller has had direct contact |
-| 1 | Named, but never met — champion is relaying |
-| 0 | Unnamed, assumed, or "the committee decides" |
+## Separate the decisions
 
-**Why it matters:** The economic buyer is the only person who can say yes. Everyone else can only say no. If you haven't met them, you don't know what they care about, and you can't address their objections before they become rejections.
+- **Fit:** Does supplied evidence support the solution addressing the buyer's problem? Distinguish an explicit unsupported requirement from a capability that is merely unknown.
+- **Pursuit:** Advance, resolve a blocker, nurture, or disqualify. Disqualify only on evidenced mismatch or contrary buying evidence. Sparse notes alone do not justify it.
+- **Forecast:** Does buyer progress and the remaining process support the proposed period? Use supplied team definitions; otherwise describe posture in plain language. Do not assign probabilities or categories from a qualification total.
 
----
+A good fit can have an unsupported close date. A simple purchase can be well supported without a detailed table. Activity can increase while commercial progress stays unchanged.
 
-### D — Decision Criteria
+## Buying risk, value, and adoption
 
-What specific criteria will the buyer use to evaluate your solution?
+Consider the buyer's risk of changing: migration, staff effort, implementation ownership, and adoption confidence, when evidenced. More ROI does not automatically resolve execution concerns.
 
-| Score | Meaning |
-|-------|---------|
-| 2 | Criteria are documented and the seller influenced them |
-| 1 | Criteria described verbally, seller did not shape them |
-| 0 | Unknown, or seller is guessing |
+For a trial or pilot, check buyer-owned success criteria, the evaluation owner, review point, and the decision following success. Distinguish proposed criteria from agreed ones. Usage and enthusiasm alone do not prove purchasing intent.
 
-**Why it matters:** If you didn't help write the criteria, someone else did — probably your competitor, or worse, a generic procurement checklist that no product fits perfectly.
+Calculate value only from supplied numbers. State units and assumptions; distinguish potential savings from realised savings. Do not turn staff capacity into cash savings without evidence the cost can be removed.
 
----
+For a price objection, distinguish affordability, value uncertainty, competing scope, timing, and negotiation. Ask the question that resolves the uncertainty. Do not prescribe concessions without supplied authority. An authorised exchange remains a proposal until the buyer agrees.
 
-### D — Decision Process
+## Choose a useful action
 
-What are the steps, in order, with owners and dates?
+Prioritise the blocker that most affects the next commercial step, considering urgency and what the seller can resolve. State the observable buyer response that would count as progress and a proportionate fallback if it does not happen. A proposed meeting is not an agreed commitment.
 
-| Score | Meaning |
-|-------|---------|
-| 2 | Each step, owner, and date known — including security, legal, and procurement |
-| 1 | Rough sequence known, no owners or dates |
-| 0 | "They said end of quarter" |
-
-**Why it matters:** A verbal timeline without a mapped process is a wish, not a forecast. Deals with unmapped processes slip at 2-3x the rate of mapped ones.
-
----
-
-### P — Paper Process
-
-Legal review, security review, vendor onboarding, procurement thresholds, signature authority.
-
-| Score | Meaning |
-|-------|---------|
-| 2 | Mapped, with realistic durations confirmed by the buyer |
-| 1 | Acknowledged but not timed |
-| 0 | Never discussed |
-
-**Why it matters:** This is where dates die. A deal that hasn't started paper process within 30 days of the close date will not close on time. Assume 3-8 weeks of hidden time if this is unscored.
-
----
-
-### I — Identified Pain
-
-Is the pain real, consequential, and urgent?
-
-| Score | Meaning |
-|-------|---------|
-| 2 | Pain is consequential, urgent, and the buyer can articulate the cost of inaction |
-| 1 | Pain is real but tolerable — profile of a deal that slips forever |
-| 0 | Interest without pain (this is a demo, not a deal) |
-
-**Why it matters:** If the buyer can tolerate the pain for another quarter, they will. Deals with tolerable pain have infinite slip.
-
----
-
-### C — Champion
-
-A champion must have three properties: power, a personal win, and willingness to sell internally.
-
-| Score | Meaning |
-|-------|---------|
-| 2 | All three properties proven — they've taken a real internal action on your behalf |
-| 1 | Friendly and helpful, but untested |
-| 0 | Coach only (gives information, takes no risk), or unknown |
-
-**Why it matters:** A coach tells you what's happening. A champion makes things happen. If you don't know which one you have, assume coach.
-
----
-
-### C — Competition
-
-Includes "do nothing" and "build internally."
-
-| Score | Meaning |
-|-------|---------|
-| 2 | Known, and differentiation is established in the buyer's language |
-| 1 | Known, no differentiation established |
-| 0 | Unknown — assume you are column fodder |
-
-**Why it matters:** "Do nothing" wins more B2B deals than any named vendor. If you don't know who you're competing against, you don't know why you'll win.
-
----
-
-## Scoring Thresholds
-
-| Total | Verdict | Meaning |
-|-------|---------|---------|
-| 13-16 | **COMMIT** | Evidence supports the date. Protect it. |
-| 9-12 | **BEST CASE** | Real, but not yet defensible. Name what must be true. |
-| 0-8 | **OMIT** | Do not forecast this. Work it, don't count it. |
-
----
-
-## Common Misconceptions
-
-**"We have a verbal commit"** — Verbal commits are sentiment, not evidence. Score the underlying MEDDPICC elements.
-
-**"No competition"** — "Do nothing" is always competition. If you haven't addressed why they should change instead of stay, score Competition as 0.
-
-**"The champion is our exec sponsor"** — An exec sponsor who hasn't taken internal risk for you is a coach. Test them: ask them to set up a meeting with their peer or send your business case upward.
-
-**"It's just procurement"** — Procurements that are "just a formality" kill deals at a surprisingly high rate. The paper process deserves its own score for a reason.
+Derive dates only from sufficient supplied steps, durations, and calendar context. Unknown timing stays unknown. This method provides coaching judgment, not a promise of closure, forecast accuracy, or revenue impact.
